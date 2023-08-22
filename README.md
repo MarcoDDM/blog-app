@@ -119,11 +119,20 @@ To run tests, run the following command:
 ```
 
 **Deployment**
-You can deploy this project using:
 
-```sh
+Follow these steps to deploy **Blog App**:
 
-```
+1. **Set Up Hosting**: Choose a hosting platform such as Vercel, Heroku, or AWS for your Ruby on Rails application.
+
+2. **Configure Environment**: Set up environment variables for your production settings, including database credentials and secret keys.
+
+3. **Build and Deploy**: Use your hosting platform's deployment process to build and deploy your application. This typically involves running commands like `vercel`, `git push heroku master`, or using deployment pipelines.
+
+4. **Migrate Database**: If required, run database migrations on the deployed server to ensure the schema is up to date.
+
+5. **Verify**: Visit the deployed URL to ensure your app is working as expected.
+
+Congratulations, your **Blog App** is now live and accessible to users!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- AUTHORS -->
