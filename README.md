@@ -28,7 +28,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -78,7 +77,7 @@
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
+### Prerequisites <a name="prerequisites"></a>
 
 In order to run this project, you need:
 
@@ -88,7 +87,7 @@ In order to run this project, you need:
  gem install rails
 ```
 
-**Setup**
+### **Setup** <a name="setup"></a>
 Clone this repository to your desired folder:
 
 ```sh
@@ -96,7 +95,7 @@ Clone this repository to your desired folder:
   git clone git@github.com:myaccount/my-project.git
 ```
 
-**Install**
+## **Install** <a name="install"></a>
 Install this project with:
 
 ```sh
@@ -104,21 +103,21 @@ Install this project with:
   gem install
 ```
 
-**Usage**
+## **Usage** <a name="usage"></a>
 To run the project, execute the following command:
 
 ```sh
   rails server
 ```
 
-**Run tests**
+## **Run tests** <a name="tests"></a>
 To run tests, run the following command:
 
 ```sh
   bin/rails test test/models/article_test.rb
 ```
 
-**Deployment**
+## **Deployment** <a name="triangular_flag_on_post-deployment"></a>
 
 Follow these steps to deploy **Blog App**:
 
