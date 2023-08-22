@@ -82,12 +82,12 @@ To get a local copy up and running, follow these steps.
 In order to run this project, you need:
 
 
-
 ```sh
  gem install rails
 ```
 
 ### **Setup** <a name="setup"></a>
+
 Clone this repository to your desired folder:
 
 ```sh
@@ -96,6 +96,7 @@ Clone this repository to your desired folder:
 ```
 
 ## **Install** <a name="install"></a>
+
 Install this project with:
 
 ```sh
@@ -104,6 +105,7 @@ Install this project with:
 ```
 
 ## **Usage** <a name="usage"></a>
+
 To run the project, execute the following command:
 
 ```sh
@@ -111,6 +113,7 @@ To run the project, execute the following command:
 ```
 
 ## **Run tests** <a name="tests"></a>
+
 To run tests, run the following command:
 
 ```sh
