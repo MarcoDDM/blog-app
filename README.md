@@ -137,6 +137,7 @@ Follow these steps to deploy **Blog App**:
 Congratulations, your **Blog App** is now live and accessible to users!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
@@ -158,7 +159,6 @@ Congratulations, your **Blog App** is now live and accessible to users!
 
 - [ ] **Dark Mode:** Enjoy a comfortable reading experience even in low-light conditions with the introduction of the new dark mode. Switch between light and dark themes effortlessly to suit your preferences.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
