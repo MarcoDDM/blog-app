@@ -15,7 +15,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+ <!-- - [🚀 Live Demo](#live-demo)-->
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -28,7 +28,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -64,11 +63,11 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+<!-- LIVE DEMO
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Non deployed yet
+- Non deployed yet -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,17 +77,17 @@
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
+### Prerequisites <a name="prerequisites"></a>
 
 In order to run this project, you need:
-
 
 
 ```sh
  gem install rails
 ```
 
-**Setup**
+### **Setup** <a name="setup"></a>
+
 Clone this repository to your desired folder:
 
 ```sh
@@ -96,7 +95,8 @@ Clone this repository to your desired folder:
   git clone git@github.com:myaccount/my-project.git
 ```
 
-**Install**
+## **Install** <a name="install"></a>
+
 Install this project with:
 
 ```sh
@@ -104,21 +104,23 @@ Install this project with:
   gem install
 ```
 
-**Usage**
+## **Usage** <a name="usage"></a>
+
 To run the project, execute the following command:
 
 ```sh
   rails server
 ```
 
-**Run tests**
+## **Run tests** <a name="tests"></a>
+
 To run tests, run the following command:
 
 ```sh
   bin/rails test test/models/article_test.rb
 ```
 
-**Deployment**
+## **Deployment** <a name="triangular_flag_on_post-deployment"></a>
 
 Follow these steps to deploy **Blog App**:
 
@@ -135,6 +137,7 @@ Follow these steps to deploy **Blog App**:
 Congratulations, your **Blog App** is now live and accessible to users!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
@@ -156,7 +159,6 @@ Congratulations, your **Blog App** is now live and accessible to users!
 
 - [ ] **Dark Mode:** Enjoy a comfortable reading experience even in low-light conditions with the introduction of the new dark mode. Switch between light and dark themes effortlessly to suit your preferences.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
