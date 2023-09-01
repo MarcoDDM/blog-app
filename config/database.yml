@@ -90,4 +90,4 @@ production:
   <<: *default
   database: blog_app_production
   username: postgres
-  password: <%= ENV["12345678"] %>
+  password: 12345678
