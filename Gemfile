@@ -50,6 +50,8 @@ gem 'bootsnap', require: false
 
 group :development, :test do
   gem 'rspec-rails', '~> 5.0'
+  gem 'capybara'
+  gem 'selenium-webdriver' # O el driver que prefieras
 end
 
 group :development do
