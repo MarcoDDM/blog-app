@@ -69,13 +69,13 @@ RSpec.describe 'Post Index', type: :system do
         likes_counter: 0
       )
     end
-  
+
     visit user_posts_path(user_id: user.id)
-    
+
     # Assuming you are using some pagination gem or library, adjust this expectation
     # based on how your pagination is implemented.
     expect(page).to have_css('.pagination') # Adjust this selector accordingly
-  end  
+  end
 
   it 'redirects to post show page when clicking on post title' do
     visit user_posts_path(user_id: user.id)
