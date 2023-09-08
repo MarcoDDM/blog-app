@@ -58,6 +58,25 @@ RSpec.describe 'Post Index', type: :system do
     expect(page).to have_content(post.likes_counter)
   end
 
+  it 'displays a section for pagination if there are more posts than fit on the view' do
+    # Create more posts to ensure pagination is needed
+    10.times do |i|
+      Post.create(
+        title: "Post #{i + 2}",
+        text: "This is post number #{i + 2}",
+        author: user,
+        comments_counter: 0,
+        likes_counter: 0
+      )
+    end
+  
+    visit user_posts_path(user_id: user.id)
+    
+    # Assuming you are using some pagination gem or library, adjust this expectation
+    # based on how your pagination is implemented.
+    expect(page).to have_css('.pagination') # Adjust this selector accordingly
+  end  
+
   it 'redirects to post show page when clicking on post title' do
     visit user_posts_path(user_id: user.id)
     click_link post.title
