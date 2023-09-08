@@ -88,6 +88,10 @@ RSpec.describe User, type: :system do
       expect(page).to have_content(brian.name)
     end
 
+    it 'shows the user bio' do
+      expect(page).to have_content(subject.bio)
+    end
+
     it 'shows the profile picture of each user' do
       profile_pictures = all('.user-image.border')
 
