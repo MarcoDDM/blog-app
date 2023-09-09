@@ -1,17 +1,22 @@
 <main>
   <section>
     <ul>
-      <% @users.each do |user| %>
-        <%= link_to user_path(user) do %>
-          <li class="card hover">
+    <% @users.each do |user| %>
+      <%= link_to user_path(user) do %>
+        <li class="card hover">
+          <% if user.photo.present? %>
             <%= image_tag(user.photo, class: "user-image border") %>
-            <div class="user-data border">
-              <h1><%= user.name %></h1>
-              <p class="number-posts"><%= user.posts_counter %> Posts</p>
-            </div>
-          </li>
-        <% end %>
+          <% else %> 
+            <%= image_tag("https://picsum.photos/200", class: "user-image border") %>
+          <% end %>
+          <div class="user-data border">
+            <h1><%= user.name %></h1>
+            <p class="number-posts"><%= user.posts_counter %> Posts</p>
+            <!-- Other user data and content -->
+          </div>
+        </li>
       <% end %>
+    <% end %>
     </ul>  
   </section>
 </main>
